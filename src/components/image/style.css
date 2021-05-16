@@ -1,0 +1,25 @@
+.main {
+  display: inline-block;
+}
+
+.main p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.main img {
+  filter: grayscale(100%);
+}
+
+.arc img {
+  width: 100%;
+  height: auto;
+  border-radius: 20rem 20rem 0.8rem 0.8rem;
+}
+
+.round img {
+  width: 100%;
+  height: auto;
+  border-radius: 20rem;
+}

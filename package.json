@@ -9,7 +9,7 @@
     "start:development": "npm run -s dev",
     "build": "preact build",
     "serve": "preact build && preact serve",
-    "dev": "preact watch --port $PORT",
+    "dev": "preact watch --port 8080",
     "lint": "eslint src",
     "test": "jest"
   },
@@ -17,12 +17,13 @@
     "eslint": "^4.9.0",
     "eslint-config-synacor": "^2.0.2",
     "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
     "per-env": "^1.0.2",
-    "jest": "^21.2.1",
-    "preact-cli": "^2.1.0",
+    "preact-cli": "^3.0.5",
     "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
     "preact-render-to-string": "^4.1.0",

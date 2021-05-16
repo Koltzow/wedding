@@ -1,5 +1,28 @@
 .home {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+}
+
+.header {
+  background: beige;
+  display: flex;
+  justify-content: center;
+  align-text: center;
+  position: relative;
+  padding: 10rem 0 6rem 0;
+}
+
+.header h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 5rem;
+}
+
+.header .image {
+  width: 20rem;
 }
